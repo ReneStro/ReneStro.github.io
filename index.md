@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rene Strougter's Portfolio</title>
+    </head>
+    <body>
+    <style>
+        body {
+            text-align: center;
+            background: url("https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png");
+            color: white;
+            font-family: Trebuchet;
+        }
+    </style>
+    <h1>Rene Stroughter</h1>
+    <h2>About Me</h2>
+    <p>20 y.o Veterinary Assistant, sister, daughter, auntie, and friend.</p>
+    <input type="email" placeholder="Your email">
+    <input type="submit">
+    </body>
+</html>
