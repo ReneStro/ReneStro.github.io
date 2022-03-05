@@ -42,7 +42,7 @@ img {
 }
 	ul {
 	  padding: 10px;
-	 background: black;
+      background: rgba(0, 0, 0, 0.5);
 	}
 	
 	li {
@@ -68,6 +68,16 @@ img {
 	         margin: 0 auto;
 	       }
 
+           @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+
 	       input {
 	     border: 0;
 	     padding: 10px;
@@ -84,10 +94,12 @@ img {
 	</style>
 	<article>
 	<h2>About Me</h2>
-	<p>20 y.o Veterinary Assistant, sister, daughter, auntie, and friend.</p
-	</article>
+	<p>20 y.o Veterinary Assistant, sister, daughter, auntie, and friend.</p>
+	<button>Like</button>
+    </article>
 	<form>
 		<input placeholder="Your email" type="email"> <input type="submit"> 
 	</form>
+    <script>alert("Javascript works!")</script>
 </body>
 </html>
